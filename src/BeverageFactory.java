@@ -1,2 +1,3 @@
-public class BeverageFactory {
+public interface BeverageFactory {
+    Beverage createBeverage(String temperature);
 }
